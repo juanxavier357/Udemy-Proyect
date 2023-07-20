@@ -1,8 +1,8 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import { Inter } from 'next/font/google'
+import Image from "next/image";
+import Link from "next/link";
+import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -21,10 +21,13 @@ export default function Home() {
                 <Link href="/">Home</Link>
               </li>
               <li>
+                <Link href="/courses">Courses</Link>
+              </li>
+              <li>
                 <Link href="/about">About</Link>
               </li>
               <li>
-                <Link href="/courses">Courses</Link>
+                <Link href="/register">Register</Link>
               </li>
             </ul>
           </nav>
